@@ -28,3 +28,7 @@
 2. Select the product you want to check in click on '3D' button below the product image.
 3. Point your camera where you want to place object and wait for ground plane to be detected.
 4. After the ground plane is detected, wait for the 3D model to finish downloading and after download is completed, Tap on the surface where you want to place the object.
+
+***Demo video can be found here :***  https://www.youtube.com/watch?v=jiP-yUTFMo0
+
+***PPT for project can be found here :***  https://1drv.ms/p/s!AqbHFoWCh2d4iD0z2H1afozXKcK4?e=gPU9ZY
