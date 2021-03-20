@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AR-Com.iml" filepath="$PROJECT_DIR$/.idea/modules/AR-Com.iml" group="AR-Com" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="AR-Com/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AR-Com.iml" filepath="$PROJECT_DIR$/.idea/modules/AR-Com.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AR-Com.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AR-Com.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/unityLibrary-release/AR-Com.unityLibrary-release.iml" filepath="$PROJECT_DIR$/.idea/modules/unityLibrary-release/AR-Com.unityLibrary-release.iml" />
     </modules>
   </component>
 </project>

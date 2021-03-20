@@ -1,9 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-core:18.0.2@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/752740570c61d72703076932bf9ac379/jetified-firebase-core-18.0.2/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/752740570c61d72703076932bf9ac379/jetified-firebase-core-18.0.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/752740570c61d72703076932bf9ac379/jetified-firebase-core-18.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f15d5095d5de7f62adc80c73bdad8daf/jetified-firebase-core-18.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f9c06546d1f1da0b8a08a32678a91551/jetified-firebase-core-18.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f15d5095d5de7f62adc80c73bdad8daf/jetified-firebase-core-18.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f15d5095d5de7f62adc80c73bdad8daf/jetified-firebase-core-18.0.2/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-core/18.0.2/27037f967d955876b3e29db6de6a24458c5b6080/firebase-core-18.0.2-javadoc.jar!/" />

@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.teamnpcomplete.ar_com"
-        minSdkVersion 19
+        minSdkVersion 25
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -45,4 +45,18 @@ dependencies {
     implementation 'me.relex:circleindicator:2.1.4'
 
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    implementation project(":unityLibrary-release")
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+//    compile(name: "libtango_3d_reconstruction_api", ext:"aar")
+
+//    compile(name: "lighting_estimation", ext:"aar")
+    compile(name: "arcore_client", ext:"aar")
+    compile(name: "arcore_unity", ext:"aar")
+    compile(name: "google_ar_required", ext:"aar")
+    compile(name: "unityandroidpermissions", ext:"aar")
+    compile(name: "unitygar", ext:"aar")
+    compile(name: "arcore_rendering_utils", ext:"aar")
+    compile(name: "customized_manifest", ext:"aar")
+    compile(name: "keyless_authentication", ext:"aar")
 }

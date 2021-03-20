@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.teamnpcomplete.ar_com">
+    package="com.teamnpcomplete.ar_com"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -8,7 +9,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon,android:theme">
+        <activity
+            android:name=".MiddleActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ProductDetailActivity"
             android:theme="@style/AppTheme.NoActionBar" />

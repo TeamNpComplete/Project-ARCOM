@@ -28,6 +28,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.unity3d.player.UnityPlayerActivity;
 
 import java.util.ArrayList;
 import java.util.Timer;
@@ -127,7 +128,47 @@ public class ProductDetailActivity extends AppCompatActivity {
         fetchDetails();
     }
 
-    public void goToUnity(View view) {}
+    public void goToUnity(View view){
+        FirebaseDatabase.getInstance().getReference("Product")
+                .child(productId)
+                .child("assetPath")
+                .addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        String assetPath = dataSnapshot.getValue(String.class);
+
+                        String assetName = assetPath.split("/")[0];
+//
+//                        Intent intent = new Intent(ProductDetailActivity.this, MiddleActivity.class);
+//                        intent.putExtra("host", "http://192.168.1.21:8080/");
+//                        intent.putExtra("assetPath", assetPath);
+//                        intent.putExtra("propertiesPath", assetName);
+//                        startActivity(intent);
+
+
+
+//                        String assetPath = getIntent().getStringExtra("assetPath");
+//                        String assetName = getIntent().getStringExtra("propertiesPath");
+
+
+                        Intent intent = new Intent(ProductDetailActivity.this, UnityPlayerActivity.class);
+
+                        intent.putExtra("arguments", true);
+                        intent.putExtra("host", "http://arcomm.herokuapp.com/");
+                        intent.putExtra("assetPath", "assets/"+assetPath);
+                        intent.putExtra("propertiesPath", "properties/"+assetName);
+                        //Toast.makeText(this, ""+ assetPath, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, ""+ assetName, Toast.LENGTH_SHORT).show();
+                        startActivity(intent);
+
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                    }
+                });
+    }
 
     private void fetchDetails() {
 

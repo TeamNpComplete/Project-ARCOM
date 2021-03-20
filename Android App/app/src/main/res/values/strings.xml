@@ -1,4 +1,5 @@
 <resources>
+    <string name="game_view_content_description" translatable="false">Game view</string>
     <string name="app_name">ARCom</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
