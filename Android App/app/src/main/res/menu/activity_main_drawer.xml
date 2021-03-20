@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Categories">
+        <menu>
+            <item
+                android:id="@+id/nav_electronics"
+                android:icon="@drawable/ic_electronics"
+                android:title="Electronics" />
+            <item
+                android:id="@+id/nav_television"
+                android:icon="@drawable/ic_television"
+                android:title="TV and Appliances" />
+            <item
+                android:id="@+id/nav_fashion"
+                android:icon="@drawable/ic_fashion"
+                android:title="Fashion" />
+            <item
+                android:id="@+id/nav_furniture"
+                android:icon="@drawable/ic_furniture"
+                android:title="Furniture" />
+        </menu>
+    </item>
+
+    <item android:title="My">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

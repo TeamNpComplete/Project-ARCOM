@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "693308738869",
+    "firebase_url": "https://augreality-45f48.firebaseio.com",
+    "project_id": "augreality-45f48",
+    "storage_bucket": "augreality-45f48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693308738869:android:ae992db206893cb3eb907c",
+        "android_client_info": {
+          "package_name": "com.example.rakathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693308738869-qvtssfsktt17qekushaod0pasj6p1fl8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuTpCB7Q-ECdSFQjJPDYgw_JSUMaPebJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693308738869-qvtssfsktt17qekushaod0pasj6p1fl8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693308738869:android:deb273693d3f6c9deb907c",
+        "android_client_info": {
+          "package_name": "com.teamnpcomplete.ar_com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693308738869-qvtssfsktt17qekushaod0pasj6p1fl8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuTpCB7Q-ECdSFQjJPDYgw_JSUMaPebJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693308738869-qvtssfsktt17qekushaod0pasj6p1fl8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
