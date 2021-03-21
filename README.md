@@ -1,4 +1,4 @@
-# HackNITR
+# ARCOM
 
 # Title : 
   ARCom - 3D Product Visualization App using Augmented Reality
